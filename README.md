@@ -429,3 +429,9 @@ Key Findings
    - Longest names (15 letters) include Franciscojavier, Ryanchristopher, Johnchristopher, Mariadelosangel.
 8. Highest Percentage of Babies Named “Chris”
    - New York leads with approx. 0.0324% of babies named “Chris,” followed by Louisiana (0.0308%) and Texas (0.0291%).
+
+---
+
+## Acknowledgments
+
+This project was completed as part of a guided learning experience with **Maven Analytics**. Special thanks to Maven Analytics for providing structured guidance and high-quality datasets to enhance analytical skills.
