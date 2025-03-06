@@ -1,5 +1,5 @@
 -- OBJECTIVE 1: TRACK CHANGES IN POPULARITY
-
+use baby_names_db;
 -- 1. Find the overall most popular girl and boy names and show how they have changed in popularity rankings over the years.
 
 (SELECT 
@@ -89,7 +89,11 @@ names_2009 AS (
 	FROM all_names
     WHERE Year = 2009)
     
-    SELECT *,
+    SELECT t1.Name,
+		t1.Year,
+        t1.popularity,
+        t2.Year,
+        t2.popularity,
 		CAST(t2.popularity AS SIGNED) - CAST(t1.popularity AS SIGNED) AS diff
     FROM names_1980 t1 INNER JOIN names_2009 t2
     ON t1.Name=t2.Name

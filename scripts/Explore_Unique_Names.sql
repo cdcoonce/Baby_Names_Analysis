@@ -52,4 +52,4 @@ SELECT nc.State,
 FROM number_chris nc
 INNER JOIN number_births nb
 ON nc.State = nb.State
-ORDER BY pct_chris DESC;
+ORDER BY pct_chris DESC; 
